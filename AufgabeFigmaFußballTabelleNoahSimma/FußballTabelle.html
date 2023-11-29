@@ -4,32 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              menu: '#D9D9D9',
+              logopurple: '#684D79',
+              col1: '#686464',
+              col1stroke: '#D9CFCD',
+             
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="Fußball.css">
+    <script src="Fußball.js"></script>
 </head>
 <body>
-    <div id="upper">
-        <h1 id="Maintitle">Premiere League Man United Tabelle</h1>
-        <div id="Homepage"><button>Homepage</button></div>
+    <div  class="p-8">
+      <div id="upper" class="flex gap-4">
+        <div>
+          <span class="text-5xl text-logopurple"> Premier League </span>
+        </div>
+      
+        <img src="./images/EnglishPremierLeague 1 (1).jpg" alt="" srcset="">
+       
+      </div>
     </div>
-    <div id="lower">
-        <div id="left">
+      <div id="buttonss" class = "font-bold">
+        <button onclick="window.location.href ='FußballTabelle.html';" id="Homepage" class="text-xl text-col1  ">Homepage</button>
+        <button onclick="window.location.href ='Matches.html';" id="Homepage" class="text-xl text-col1  ">Matches</button>
+      </div>
+    
 
-            <div class="table">1</div>
-            <div class="table">2</div>
-            <div class="table">3</div>
-            <div class="table">4</div>
-            <div class="table">5</div>
-            <div class="table">6</div>
-        </div>
-        <div id="right">
-            <div class="matches">vs</div>
-            <div class="matches">vs</div>
-            <div class="matches">vs</div>
-            <div class="matches">vs</div>
-            <div class="matches">vs</div>
-            <div class="matches">vs</div>
-            
-        </div>
+    
+
+        
+    
+
+  <div class="content">
+    <div>
+      <div class="title1">
+      <h1 id="mainh1" class="font-extrabold">Tabelle</h1>
+      </div>
+      <div id="table" class="flex p-4 gap-9">
+        <div id="">1.</div>
+        <div id="">Man United</div>
+        <div id="tblleft">15</div>
+        <div id="tblleft">Logo</div>
+        <div id="tblleft"></div>
+        
+      </div>
+
+      <div id="table" class="flex p-4 gap-9">
+        <div id="">1.</div>
+        <div id="">Man United</div>
+        <div id="tblleft">15</div>
+        <div id="tblleft">Logo</div>
+        <div id="tblleft"></div>
+        
+      </div>
+
+      <div id="table" class="flex p-4 gap-9">
+        <div id="">1.</div>
+        <div id="">Man United</div>
+        <div id="tblleft">15</div>
+        <div id="tblleft">Logo</div>
+        <div id="tblleft"></div>
+        
+      </div>
+
+      <div id="table" class="flex p-4 gap-9">
+        <div id="">1.</div>
+        <div id="">Man United</div>
+        <div id="tblleft">15</div>
+        <div id="tblleft">Logo</div>
+        <div id="tblleft"></div>
+        
+      </div>
+
+      <div id="table" class="flex p-4 gap-9">
+        <div id="">1.</div>
+        <div id="">Man United</div>
+        <div id="tblleft">15</div>
+        <div id="tblleft">Logo</div>
+        <div id="tblleft"></div>
+        
+      </div>
+
+     
+        
+      </div>
+      
+     </div>
+
+
     </div>
 </body>
 </html>

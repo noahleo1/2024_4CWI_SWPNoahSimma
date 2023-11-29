@@ -1,0 +1,86 @@
+#table{
+    height: 81px ;
+    width: 709px ;
+    margin-top:26px ;
+   justify-content: center; 
+   align-items: center;
+   gap:30px;
+    background-color: #D9D9D9;
+    margin-left:300px;
+}
+#tblleft{
+
+    margin-left:50px;
+}
+#Homepage{
+
+    stroke:#D9CFCD;
+    font-size: 27px;
+}
+
+#upper{
+
+    width: 1026;
+    height:109;
+    justify-content: center;
+    align-items: center;
+    margin-top:-43px;
+    
+}
+
+#buttonss{
+    margin-left: 120px;
+    gap: 10px;
+    font-size: 300px;
+    margin-top: -380px;
+    
+}
+#Homepage:hover{
+    color: aqua;
+    
+    
+}
+#mainh1{
+    font-size:27px;
+    }
+
+.title1{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-top: -70px;
+}
+
+#wrapper{
+    
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #aa4f4f;
+    width:350px;
+    height:500px;
+    margin-left:600px;
+    margin-top: -30px;
+    background-color: #D9D9D9;
+    border-style: solid;
+   
+}
+#matches{
+border: 1px black;
+border-style: solid;
+font-size: 20px;
+width:334px;
+height:90px;
+background-color:#CFB7B7 ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+
+}
+
+#matchesinside{
+    margin-left: 50px;
+}
