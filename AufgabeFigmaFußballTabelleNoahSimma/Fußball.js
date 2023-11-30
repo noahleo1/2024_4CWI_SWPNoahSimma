@@ -1,0 +1,34 @@
+function loadTable(){
+    fetch("https://api.openligadb.de/getbltable/PL/2010").
+    then((res) =>res.json().then((result) => {
+        insertTable(result);
+    })
+    );
+}
+
+function insertTable(data){
+    console.log("data",data);
+    const element = document.getElementById("maintable");
+
+    let output = '';
+    data.forEach(team => {
+         output += '<div id="table" class="flex p-4 gap-9">'
+        
+      
+        output +='<div>' + team.draw + '</div>'
+        output +='<div>' + team.teamName+ '</div>'
+        output +='<div>' + team.points+ '</div>'
+        output +='<div><img width="20px" src="' + team.teamIconUrl + '"/></div>'
+        output += '</div>';
+    });
+    
+        element.innerHTML = output;
+       
+    //<div id="">Man United</div>
+    //<div id="tblleft">15</div>
+    //<div id="tblleft">Logo</div>
+    
+     // </div>
+}
+
+const data= loadTable();
