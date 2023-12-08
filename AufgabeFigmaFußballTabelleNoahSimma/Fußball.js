@@ -19,20 +19,16 @@ function insertTable(data){
          output += '<div id="table" class="flex p-4 gap-9">'
         
       
-        output +='<div>' +"points:  "+team.points+'</div>'
+        output +='<div>' +"points:  "+team.points+  '</div>'
         output +='<div>' + team.teamName+ '</div>'
         
-        output +='<div><img width="20px" src="' + team.teamIconUrl + '"/></div>'
+        output +='<div><img width="30px" src="' + team.teamIconUrl + '"/></div>'
         output += '</div>';
     });
     
         element.innerHTML = output;
        
-    //<div id="">Man United</div>
-    //<div id="tblleft">15</div>
-    //<div id="tblleft">Logo</div>
     
-     // </div>
 }
 
 const data= loadTable();
