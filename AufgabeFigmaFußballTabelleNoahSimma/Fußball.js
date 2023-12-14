@@ -22,7 +22,7 @@ function insertTable(data){
         output +='<div>' +"points:  "+team.points+  '</div>'
         output +='<div>' + team.teamName+ '</div>'
         
-        output +='<div><img width="30px" src="' + team.teamIconUrl + '"/></div>'
+        output +='<div><img width="40px" src="' + team.teamIconUrl + '"/></div>'
         output += '</div>';
     });
     

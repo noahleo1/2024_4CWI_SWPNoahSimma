@@ -23,7 +23,7 @@ function insertMatches1(data){
          output += '<div class="Matches1" id="matches">'
         
           
-          output +='<div class="Item"><img width="45px" src="' + match.team1.teamIconUrl + '"/>' +  match.team1.shortName+ ' -  Tore:  '+ match.matchResults[1].pointsTeam1 +  ' ---   VS ---   ' + match.team2.shortName+ ' - Tore:  ' + match.matchResults[1].pointsTeam2+           '<img width="45px" src="' + match.team2.teamIconUrl + '"/></div>'
+          output +='<div class="Item"><img width="45px" src="' + match.team1.teamIconUrl + '"/>'+ match.matchResults[1].pointsTeam1 +  ' ---   VS ---   ' +  match.matchResults[1].pointsTeam2+           '<img width="45px" src="' + match.team2.teamIconUrl + '"/></div>'
         
 
         
