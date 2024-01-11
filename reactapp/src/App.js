@@ -7,6 +7,8 @@ function App() {
      <Button name="Hans" age="17" /> 
      <Button name="Sepp"/>
      <Button name="Paul"/>
+     <Person name="Finn " description="super coder"/>
+
     </div>
   );
 }
